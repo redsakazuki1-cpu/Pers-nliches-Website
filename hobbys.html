@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+</head>
+<title>Sean's Galaxie</title>
+
+<h1 class="rainbow_animated">Meine Hobbys</h1>
+<html lang="de">
+<head>
+    <title>Sean's Galaxie</title>
+</head>
+
+<body style="background-image:url('space.gif'); color:red; text-align:center;"></body>
+
+<h2 class="rainbow_animated">Schwimmen</h2>
+<img src="schwimmen.gif" width="300">
+
+<h2 class="rainbow_animated">Klettern</h2>
+<img src="climbing.gif" width="300">
+
+<h2 class="rainbow_animated">Gaming</h2>
+<img src="gaming.gif" width="300">
+<hr>
+
+<a href="index.html">⬅ Zurück zur Startseite</a>
+
+<style>
+    .rainbow_animated {
+        background: linear-gradient(to right, red, orange, yellow, green, blue, purple, violet);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-size: 400% 100%;
+        animation: rainbow_animation 5s infinite;
+    }
+
+    @keyframes rainbow_animation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100%{ background-position: 0% 50%; }
+
+    }
+
+a{color: gold;}
+    
+</style>
